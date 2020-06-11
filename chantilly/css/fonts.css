@@ -1,0 +1,345 @@
+@font-face{
+    font-family: D-DIN;
+    src: url(../font/d-din/D-DIN.otf);
+}
+
+@font-face{
+    font-family: D-DIN;
+    src: url(../font/d-din/D-DIN-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: SignPainter-HouseScript;
+    src: local('SignPainter-HouseScript'),
+      url(../font/SignPainterHouseScriptRegular/SignPainter-HouseScript-Regular.ttf) 
+    format('truetype');
+}
+
+@media (min-width:992px){
+    body{
+        font-size: 14px;
+    }
+}
+@media (min-width:576px) and (max-width:991px){
+    body{
+        font-size: 10px;
+    }
+}
+@media (min-width:435px) and (max-width:575px){
+    body{
+        font-size: 14px;
+    }
+}
+@media (max-width:435px){
+    body{
+        font-size: 10px;
+    }
+}
+
+body{
+    min-width: 320px;
+}
+
+.hover-block-name {
+    font-family: D-DIN;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.56px;
+    color: #ffffff;
+}
+
+.hover-block-title {
+    font-family: SignPainter-HouseScript;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+a.hover-block-title:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.teaser-title {
+    font-family: SignPainter-HouseScript;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+a.teaser-title:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.teaser-date-font{
+    font-family: D-DIN;
+    font-size: 1em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.74px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.teaser-body-text {
+    font-family: D-DIN;
+    font-size: .8em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.93px;
+    color: #000000;
+  }
+
+.hover-block-date-font {
+    font-family: D-DIN;
+    font-size: .8em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.81px;
+    color: #ffffff;
+}
+
+.teaser-name {
+    font-family: D-DIN;
+    font-size: 1.65em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.27px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.arrow-1 {
+    object-fit: contain;
+    color: #ffffff;
+}
+
+.grid-title{
+    font-family: SignPainter-HouseScript;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+a.grid-title:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.grid-date {
+    font-family: D-DIN;
+    font-size: .8em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.69px;
+    color: #ffffff;
+}
+
+.grid-name {
+    font-family: D-DIN;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.87px;
+    color: #ffffff;
+}
+
+.grid-content {
+    font-family: D-DIN;
+    font-size: .8em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.93px;
+    color: #ffffff;
+}
+
+.main_menu {
+    font-family: D-DIN;
+    font-size: 1em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.text-aligh-right{
+    text-align: right;
+}
+
+.logo-symbol {
+    font-family: D-DIN;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 13.88px;
+    color: #2bc7c2;
+    display: contents;
+}
+
+.site-name {
+    font-family: D-DIN;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 13.88px;
+    color: #2bc7c2;
+    display: contents;
+}
+
+.site-name a{
+    color: #2bc7c2;
+    text-decoration: none;
+}
+
+.site-logo{
+    margin-right: 2.3em;
+}
+
+.social-media {
+    font-family: D-DIN;
+    font-size: .8em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.93px;
+    color: #000000;
+    margin: auto;
+    margin-left: .3em;
+    margin-right: 2em;
+}
+
+a.social-media:hover{
+    color: #000000;
+}
+  
+.region-footer-text {
+    font-family: D-DIN;
+    font-size: .8em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.93px;
+    color: #000000;
+}
+
+.trending {
+    font-family: D-DIN;
+    font-size: 1.15em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.trending-name {
+    font-family: D-DIN;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    color: #000000;
+    width: 100%;
+}
+
+.trending-label {
+    font-family: SignPainter-HouseScript;
+    font-size: 1.3em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+a.trending-label:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.arrow-right-black{
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+    font-size: 1.5em;
+}
+
+.subscribe {
+    font-family: D-DIN;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.get-daily-updates {
+    font-family: D-DIN;
+    font-size: .9em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+#subscribe-form input::placeholder{
+    font-family: D-DIN;
+    font-size: .9em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #c8c8c8;
+}

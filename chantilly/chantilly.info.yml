@@ -1,0 +1,36 @@
+name: Chantilly
+type: theme
+core: 8.x
+base theme: classy
+description: "Chantilly is a drupal theme designed for blogging. It provides some views which can be used by the content creater and is easy to customise."
+package : 'Bootstrap'
+screenshot: 'images/screenshot.png'
+
+libraries:
+  - chantilly/bootstrap
+  - chantilly/bootstrap-cdn
+  - chantilly/global-styling
+  - chantilly/font
+
+regions:
+  header: Header
+  primary_menu: Primary menu
+  left_top: Left Top
+  left_bottom: Left Bottom
+  content: Content
+  main_left: Main Left
+  main_right: Main right
+  right_top: Right Top
+  right_bottom: Right Bottom
+  one_one: One-One
+  one_two: One-two
+  one_three: One-three
+  two_one: Two-one
+  two_two: Two-two
+  two_three: Two-three
+  three_one: Three-one
+  three_two: Three-two
+  three_three: Three-three
+  footer_menu: Footer Menu
+  footer_text: Footer Text
+  footer_branding: Footer Branding

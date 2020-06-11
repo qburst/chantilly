@@ -1,0 +1,23 @@
+.top-left-text{
+    display: flow-root ;
+    bottom: 0px;
+    position: absolute;
+}
+
+.grid-text{
+    display: flow-root ;
+    bottom: 0px;
+    position: absolute;
+}
+
+.teaser-date-right{
+    text-align: center;
+    border-left: 1px #979797 solid;
+}
+
+.teaser-date-left{
+    text-align: center;
+    border-right: 1px #979797 solid;
+    height: fit-content;
+    padding-bottom: 1em;
+}
