@@ -1,0 +1,19 @@
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chantilly
+id: chantilly_sitebranding
+theme: chantilly
+region: header
+plugin: system_branding_block
+settings:
+  id: chantilly_sitebranding
+  label: SiteBranding
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,22 @@
+<?php
+
+use Drupal\Core\Theme\ThemeSettings;
+use Drupal\Core\Template\Attribute;
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+function chantilly_preprocess_html(&$variables)
+{
+  $bootstrap_remote_type = theme_get_setting('bootstrap_remote_type');
+  if ($bootstrap_remote_type == 'local') {
+    $variables['#attached']['library'][] = 'chantilly/bootstrap';
+  } else {
+    $variables['#attached']['library'][] = 'chantilly/bootstrap-cdn';
+  }  
+}
+

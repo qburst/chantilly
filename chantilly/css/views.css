@@ -1,0 +1,34 @@
+.views-field-title{
+    font-family: SignPainter-HouseScript;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.views-field-field-name{
+    font-family: D-DIN;
+    font-size: 1.65em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.27px;
+    color: #000000;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.views-field-body{
+    font-family: D-DIN;
+    font-size: .8em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.93px;
+    color: #000000;
+}

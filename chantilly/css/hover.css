@@ -1,0 +1,13 @@
+.hover:hover .hover-display{
+    /* display: flow-root!important; */
+    /* visibility: visible; */
+    width: auto;
+    height: auto;
+}
+
+.hover-display{
+    /* visibility: hidden; */
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}

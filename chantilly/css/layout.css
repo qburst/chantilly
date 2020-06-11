@@ -1,0 +1,65 @@
+.header{
+    border-bottom: 1px #979797 solid;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 2em;
+}
+
+.main-right{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: .5em;
+    padding: 1em;
+}
+
+.hover-block{
+    margin: 1em 0em 0em -1em;
+    padding: 1em;
+    position: relative;
+}
+
+.left-bottom{
+    margin: 1em 0em 0em -1em;
+    padding: 1em;
+}
+
+.main-left{
+    margin-top: .5em;
+    padding: 1em;
+}
+
+.right-top{
+    margin: 0em -1em 0em 0em;
+    padding-top: 1em;
+}
+
+.right-bottom{
+    margin: 2em -1em 0em 0em;
+    padding: 1.7em;
+    display: flow-root;
+    border: solid 2px #2bc7c2;
+}
+
+.footer{
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    padding: 2em 4em;
+}
+
+.site-name{
+    display: inline;
+}
+
+.site-logo img{
+    width: 1.3em;
+}
+
+.primary-menu ul{
+    display: flex;
+}
+
+.primary-menu ul li{
+    padding: 1em;
+}
