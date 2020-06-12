@@ -1,13 +1,9 @@
 .hover:hover .hover-display{
-    /* display: flow-root!important; */
-    /* visibility: visible; */
-    width: auto;
-    height: auto;
+    height: 3.5em;
 }
 
 .hover-display{
-    /* visibility: hidden; */
-    height: 0px;
-    width: 0px;
+    height: 0;
     overflow: hidden;
+    transition: height 0.66s ease-out;
 }
