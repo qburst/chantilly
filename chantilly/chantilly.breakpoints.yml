@@ -1,16 +1,16 @@
-blog.small:
+chantilly.small:
   label: small
   mediaQuery: ''
   weight: '0'
   multipliers:
     - '1x'
-blog.medium:
+chantilly.medium:
   label: medium
   mediaQuery: 'screen and (min-width: 640px)'
   weight: '1'
   multipliers:
     - '2x'
-blog.large:
+chantilly.large:
   label: large
   mediaQuery: 'screen and (min-width: 1024px)'
   weight: '2'
